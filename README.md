@@ -125,7 +125,7 @@ python data_generation.py
 - **Source**: BOLD time series simulations
 - **Variables**: 50 network nodes
 - **Time points**: Variable by simulation
-- **Download**: Place .mat files in `./fmri_data/` directory
+- **Download**: Place .mat files in `./fMRI/` directory
 
 ## Output
 
