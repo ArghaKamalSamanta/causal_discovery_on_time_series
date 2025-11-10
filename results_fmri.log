@@ -1,0 +1,1410 @@
+[2025-11-09 20:57:00] 
+================================================================================
+[2025-11-09 20:57:00] Starting experiments on fmri dataset
+[2025-11-09 20:57:00] Data shape: (200, 5), Max lag: 1
+[2025-11-09 20:57:00] ================================================================================
+
+[2025-11-09 20:57:00] 
+Running PCMCI...
+[2025-11-09 20:57:01] PCMCI completed in 0.05 seconds
+[2025-11-09 20:57:01] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:01] 
+Running PCMCI+...
+[2025-11-09 20:57:01] PCMCI+ completed in 0.12 seconds
+[2025-11-09 20:57:01] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:01] 
+Running LPCMCI...
+[2025-11-09 20:57:01] Error running LPCMCI: 'PCMCI' object has no attribute 'run_lpcmci'
+[2025-11-09 20:57:01] 
+Running tsFCI...
+[2025-11-09 20:57:01] Error running tsFCI: 'bool' object has no attribute 'astype'
+[2025-11-09 20:57:01] 
+Running CD-NOD...
+[2025-11-09 20:57:01] CD-NOD completed in 0.01 seconds
+[2025-11-09 20:57:01] 
+============================================================
+Algorithm: CD-NOD
+TPR: 0.500 | FDR: 0.500 | SHD: 10
+Precision: 0.500 | Recall: 0.500 | F1: 0.500
+True Positives: 5 | False Positives: 5
+False Negatives: 5 | True Negatives: 10
+Predicted Edges: 10 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:01] 
+Running CDANs...
+[2025-11-09 20:57:01] CDANs completed in 0.09 seconds
+[2025-11-09 20:57:01] 
+============================================================
+Algorithm: CDANs
+TPR: 0.500 | FDR: 0.706 | SHD: 17
+Precision: 0.294 | Recall: 0.500 | F1: 0.370
+True Positives: 5 | False Positives: 12
+False Negatives: 5 | True Negatives: 3
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:01] 
+Running VarLiNGAM...
+[2025-11-09 20:57:01] Error running VarLiNGAM: index 2 is out of bounds for axis 2 with size 2
+[2025-11-09 20:57:01] 
+Running TiMINo...
+[2025-11-09 20:57:02] TiMINo completed in 1.27 seconds
+[2025-11-09 20:57:02] 
+============================================================
+Algorithm: TiMINo
+TPR: 0.500 | FDR: 0.000 | SHD: 5
+Precision: 1.000 | Recall: 0.500 | F1: 0.667
+True Positives: 5 | False Positives: 0
+False Negatives: 5 | True Negatives: 15
+Predicted Edges: 5 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:02] 
+Running DYNOTEARS...
+[2025-11-09 20:57:02] DYNOTEARS completed in 0.09 seconds
+[2025-11-09 20:57:02] 
+============================================================
+Algorithm: DYNOTEARS
+TPR: 0.000 | FDR: 0.000 | SHD: 10
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 0
+False Negatives: 10 | True Negatives: 15
+Predicted Edges: 0 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:02] 
+Running NTS-NOTEARS...
+[2025-11-09 20:57:02] Error running NTS-NOTEARS: The size of tensor a (199) must match the size of tensor b (200) at non-singleton dimension 0
+[2025-11-09 20:57:02] 
+Running GVAR...
+[2025-11-09 20:57:02] Error running GVAR: The size of tensor a (199) must match the size of tensor b (5) at non-singleton dimension 0
+[2025-11-09 20:57:02] 
+Running NAVAR...
+[2025-11-09 20:57:02] NAVAR completed in 0.11 seconds
+[2025-11-09 20:57:02] 
+============================================================
+Algorithm: NAVAR
+TPR: 0.000 | FDR: 1.000 | SHD: 31
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 21
+False Negatives: 10 | True Negatives: -6
+Predicted Edges: 21 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:02] 
+Running ACD...
+[2025-11-09 20:57:02] ACD completed in 0.14 seconds
+[2025-11-09 20:57:02] 
+============================================================
+Algorithm: ACD
+TPR: 0.000 | FDR: 1.000 | SHD: 26
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 16
+False Negatives: 10 | True Negatives: -1
+Predicted Edges: 16 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:02] 
+Running oCSE...
+[2025-11-09 20:57:02] oCSE completed in 0.04 seconds
+[2025-11-09 20:57:02] 
+============================================================
+Algorithm: oCSE
+TPR: 0.000 | FDR: 1.000 | SHD: 13
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 3
+False Negatives: 10 | True Negatives: 12
+Predicted Edges: 3 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:02] 
+Running TCDF...
+[2025-11-09 20:57:03] Error running TCDF: index 1 is out of bounds for axis 0 with size 1
+[2025-11-09 20:57:03] 
+Running NBCB...
+[2025-11-09 20:57:04] Error running NBCB: name 'pp' is not defined
+[2025-11-09 20:57:04] 
+Running PCTMI...
+[2025-11-09 20:57:04] PCTMI completed in 0.07 seconds
+[2025-11-09 20:57:04] 
+============================================================
+Algorithm: PCTMI
+TPR: 0.500 | FDR: 0.167 | SHD: 6
+Precision: 0.833 | Recall: 0.500 | F1: 0.625
+True Positives: 5 | False Positives: 1
+False Negatives: 5 | True Negatives: 14
+Predicted Edges: 6 | True Edges: 10
+============================================================
+
+[2025-11-09 20:57:04] 
+============================================================
+ALGORITHM COMPARISON
+============================================================
+Best by F1 Score: TiMINo
+Best by TPR: PCMCI
+Best by FDR (lowest): TiMINo
+Best by SHD (lowest): TiMINo
+
+Ranked by F1 Score:
+1. TiMINo: F1=0.667, TPR=0.500, FDR=0.000, SHD=5
+2. PCTMI: F1=0.625, TPR=0.500, FDR=0.167, SHD=6
+3. CD-NOD: F1=0.500, TPR=0.500, FDR=0.500, SHD=10
+4. CDANs: F1=0.370, TPR=0.500, FDR=0.706, SHD=17
+5. PCMCI: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+6. PCMCI+: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+7. DYNOTEARS: F1=0.000, TPR=0.000, FDR=0.000, SHD=10
+8. NAVAR: F1=0.000, TPR=0.000, FDR=1.000, SHD=31
+9. ACD: F1=0.000, TPR=0.000, FDR=1.000, SHD=26
+10. oCSE: F1=0.000, TPR=0.000, FDR=1.000, SHD=13
+============================================================
+
+[2025-11-09 20:57:04] Results saved to results_fmri.json
+[2025-11-09 21:23:16] 
+================================================================================
+[2025-11-09 21:23:16] Starting experiments on fmri dataset
+[2025-11-09 21:23:16] Data shape: (200, 5), Max lag: 1
+[2025-11-09 21:23:16] ================================================================================
+
+[2025-11-09 21:23:16] 
+Running PCMCI...
+[2025-11-09 21:23:16] PCMCI completed in 0.05 seconds
+[2025-11-09 21:23:16] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:16] 
+Running PCMCI+...
+[2025-11-09 21:23:16] PCMCI+ completed in 0.12 seconds
+[2025-11-09 21:23:16] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:16] 
+Running LPCMCI...
+[2025-11-09 21:23:16] LPCMCI completed in 0.60 seconds
+[2025-11-09 21:23:16] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:16] 
+Running tsFCI...
+[2025-11-09 21:23:16] Error running tsFCI: 'bool' object has no attribute 'astype'
+[2025-11-09 21:23:16] 
+Running CD-NOD...
+[2025-11-09 21:23:16] CD-NOD completed in 0.01 seconds
+[2025-11-09 21:23:16] 
+============================================================
+Algorithm: CD-NOD
+TPR: 0.500 | FDR: 0.500 | SHD: 10
+Precision: 0.500 | Recall: 0.500 | F1: 0.500
+True Positives: 5 | False Positives: 5
+False Negatives: 5 | True Negatives: 10
+Predicted Edges: 10 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:16] 
+Running CDANs...
+[2025-11-09 21:23:17] CDANs completed in 0.13 seconds
+[2025-11-09 21:23:17] 
+============================================================
+Algorithm: CDANs
+TPR: 0.500 | FDR: 0.706 | SHD: 17
+Precision: 0.294 | Recall: 0.500 | F1: 0.370
+True Positives: 5 | False Positives: 12
+False Negatives: 5 | True Negatives: 3
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:17] 
+Running VarLiNGAM...
+[2025-11-09 21:23:17] Error running VarLiNGAM: index 2 is out of bounds for axis 2 with size 2
+[2025-11-09 21:23:17] 
+Running TiMINo...
+[2025-11-09 21:23:18] TiMINo completed in 1.27 seconds
+[2025-11-09 21:23:18] 
+============================================================
+Algorithm: TiMINo
+TPR: 0.500 | FDR: 0.000 | SHD: 5
+Precision: 1.000 | Recall: 0.500 | F1: 0.667
+True Positives: 5 | False Positives: 0
+False Negatives: 5 | True Negatives: 15
+Predicted Edges: 5 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:18] 
+Running DYNOTEARS...
+[2025-11-09 21:23:18] DYNOTEARS completed in 0.07 seconds
+[2025-11-09 21:23:18] 
+============================================================
+Algorithm: DYNOTEARS
+TPR: 0.000 | FDR: 0.000 | SHD: 10
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 0
+False Negatives: 10 | True Negatives: 15
+Predicted Edges: 0 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:18] 
+Running NTS-NOTEARS...
+[2025-11-09 21:23:18] Error running NTS-NOTEARS: The size of tensor a (199) must match the size of tensor b (200) at non-singleton dimension 0
+[2025-11-09 21:23:18] 
+Running GVAR...
+[2025-11-09 21:23:18] Error running GVAR: The size of tensor a (199) must match the size of tensor b (5) at non-singleton dimension 0
+[2025-11-09 21:23:18] 
+Running NAVAR...
+[2025-11-09 21:23:18] NAVAR completed in 0.11 seconds
+[2025-11-09 21:23:18] 
+============================================================
+Algorithm: NAVAR
+TPR: 0.000 | FDR: 1.000 | SHD: 35
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 25
+False Negatives: 10 | True Negatives: -10
+Predicted Edges: 25 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:18] 
+Running ACD...
+[2025-11-09 21:23:18] ACD completed in 0.15 seconds
+[2025-11-09 21:23:18] 
+============================================================
+Algorithm: ACD
+TPR: 0.000 | FDR: 1.000 | SHD: 23
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 13
+False Negatives: 10 | True Negatives: 2
+Predicted Edges: 13 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:18] 
+Running oCSE...
+[2025-11-09 21:23:18] oCSE completed in 0.04 seconds
+[2025-11-09 21:23:18] 
+============================================================
+Algorithm: oCSE
+TPR: 0.000 | FDR: 1.000 | SHD: 13
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 3
+False Negatives: 10 | True Negatives: 12
+Predicted Edges: 3 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:18] 
+Running TCDF...
+[2025-11-09 21:23:19] Error running TCDF: index 1 is out of bounds for axis 0 with size 1
+[2025-11-09 21:23:19] 
+Running NBCB...
+[2025-11-09 21:23:20] Error running NBCB: name 'pp' is not defined
+[2025-11-09 21:23:20] 
+Running PCTMI...
+[2025-11-09 21:23:20] PCTMI completed in 0.07 seconds
+[2025-11-09 21:23:20] 
+============================================================
+Algorithm: PCTMI
+TPR: 0.500 | FDR: 0.167 | SHD: 6
+Precision: 0.833 | Recall: 0.500 | F1: 0.625
+True Positives: 5 | False Positives: 1
+False Negatives: 5 | True Negatives: 14
+Predicted Edges: 6 | True Edges: 10
+============================================================
+
+[2025-11-09 21:23:20] 
+============================================================
+ALGORITHM COMPARISON
+============================================================
+Best by F1 Score: TiMINo
+Best by TPR: PCMCI
+Best by FDR (lowest): TiMINo
+Best by SHD (lowest): TiMINo
+
+Ranked by F1 Score:
+1. TiMINo: F1=0.667, TPR=0.500, FDR=0.000, SHD=5
+2. PCTMI: F1=0.625, TPR=0.500, FDR=0.167, SHD=6
+3. CD-NOD: F1=0.500, TPR=0.500, FDR=0.500, SHD=10
+4. CDANs: F1=0.370, TPR=0.500, FDR=0.706, SHD=17
+5. PCMCI: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+6. PCMCI+: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+7. LPCMCI: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+8. DYNOTEARS: F1=0.000, TPR=0.000, FDR=0.000, SHD=10
+9. NAVAR: F1=0.000, TPR=0.000, FDR=1.000, SHD=35
+10. ACD: F1=0.000, TPR=0.000, FDR=1.000, SHD=23
+11. oCSE: F1=0.000, TPR=0.000, FDR=1.000, SHD=13
+============================================================
+
+[2025-11-09 21:23:20] Results saved to results_fmri.json
+[2025-11-09 21:36:34] 
+================================================================================
+[2025-11-09 21:36:34] Starting experiments on fmri dataset
+[2025-11-09 21:36:34] Data shape: (200, 5), Max lag: 1
+[2025-11-09 21:36:34] ================================================================================
+
+[2025-11-09 21:36:34] 
+Running PCMCI...
+[2025-11-09 21:36:34] PCMCI completed in 0.06 seconds
+[2025-11-09 21:36:34] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 21:36:34] 
+Running PCMCI+...
+[2025-11-09 21:36:34] PCMCI+ completed in 0.12 seconds
+[2025-11-09 21:36:34] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 21:36:34] 
+Running LPCMCI...
+[2025-11-09 21:36:35] LPCMCI completed in 0.63 seconds
+[2025-11-09 21:36:35] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-09 21:36:35] 
+Running tsFCI...
+[2025-11-09 21:37:27] Error running tsFCI: 'bool' object has no attribute 'astype'
+[2025-11-09 21:37:27] 
+Running CD-NOD...
+[2025-11-09 21:37:27] CD-NOD completed in 0.01 seconds
+[2025-11-09 21:37:27] 
+============================================================
+Algorithm: CD-NOD
+TPR: 0.500 | FDR: 0.500 | SHD: 10
+Precision: 0.500 | Recall: 0.500 | F1: 0.500
+True Positives: 5 | False Positives: 5
+False Negatives: 5 | True Negatives: 10
+Predicted Edges: 10 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:27] 
+Running CDANs...
+[2025-11-09 21:37:27] CDANs completed in 0.11 seconds
+[2025-11-09 21:37:27] 
+============================================================
+Algorithm: CDANs
+TPR: 0.500 | FDR: 0.706 | SHD: 17
+Precision: 0.294 | Recall: 0.500 | F1: 0.370
+True Positives: 5 | False Positives: 12
+False Negatives: 5 | True Negatives: 3
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:27] 
+Running VarLiNGAM...
+[2025-11-09 21:37:27] Error running VarLiNGAM: index 2 is out of bounds for axis 2 with size 2
+[2025-11-09 21:37:27] 
+Running TiMINo...
+[2025-11-09 21:37:29] TiMINo completed in 1.35 seconds
+[2025-11-09 21:37:29] 
+============================================================
+Algorithm: TiMINo
+TPR: 0.500 | FDR: 0.000 | SHD: 5
+Precision: 1.000 | Recall: 0.500 | F1: 0.667
+True Positives: 5 | False Positives: 0
+False Negatives: 5 | True Negatives: 15
+Predicted Edges: 5 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:29] 
+Running DYNOTEARS...
+[2025-11-09 21:37:29] DYNOTEARS completed in 0.09 seconds
+[2025-11-09 21:37:29] 
+============================================================
+Algorithm: DYNOTEARS
+TPR: 0.000 | FDR: 0.000 | SHD: 10
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 0
+False Negatives: 10 | True Negatives: 15
+Predicted Edges: 0 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:29] 
+Running NTS-NOTEARS...
+[2025-11-09 21:37:29] Error running NTS-NOTEARS: The size of tensor a (199) must match the size of tensor b (200) at non-singleton dimension 0
+[2025-11-09 21:37:29] 
+Running GVAR...
+[2025-11-09 21:37:29] Error running GVAR: The size of tensor a (199) must match the size of tensor b (5) at non-singleton dimension 0
+[2025-11-09 21:37:29] 
+Running NAVAR...
+[2025-11-09 21:37:29] NAVAR completed in 0.12 seconds
+[2025-11-09 21:37:29] 
+============================================================
+Algorithm: NAVAR
+TPR: 0.000 | FDR: 1.000 | SHD: 34
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 24
+False Negatives: 10 | True Negatives: -9
+Predicted Edges: 24 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:29] 
+Running ACD...
+[2025-11-09 21:37:29] ACD completed in 0.15 seconds
+[2025-11-09 21:37:29] 
+============================================================
+Algorithm: ACD
+TPR: 0.000 | FDR: 1.000 | SHD: 26
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 16
+False Negatives: 10 | True Negatives: -1
+Predicted Edges: 16 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:29] 
+Running oCSE...
+[2025-11-09 21:37:29] oCSE completed in 0.04 seconds
+[2025-11-09 21:37:29] 
+============================================================
+Algorithm: oCSE
+TPR: 0.000 | FDR: 1.000 | SHD: 13
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 3
+False Negatives: 10 | True Negatives: 12
+Predicted Edges: 3 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:29] 
+Running TCDF...
+[2025-11-09 21:37:29] Error running TCDF: index 1 is out of bounds for axis 0 with size 1
+[2025-11-09 21:37:29] 
+Running NBCB...
+[2025-11-09 21:37:31] Error running NBCB: name 'pp' is not defined
+[2025-11-09 21:37:31] 
+Running PCTMI...
+[2025-11-09 21:37:31] PCTMI completed in 0.07 seconds
+[2025-11-09 21:37:31] 
+============================================================
+Algorithm: PCTMI
+TPR: 0.500 | FDR: 0.167 | SHD: 6
+Precision: 0.833 | Recall: 0.500 | F1: 0.625
+True Positives: 5 | False Positives: 1
+False Negatives: 5 | True Negatives: 14
+Predicted Edges: 6 | True Edges: 10
+============================================================
+
+[2025-11-09 21:37:31] 
+============================================================
+ALGORITHM COMPARISON
+============================================================
+Best by F1 Score: TiMINo
+Best by TPR: PCMCI
+Best by FDR (lowest): TiMINo
+Best by SHD (lowest): TiMINo
+
+Ranked by F1 Score:
+1. TiMINo: F1=0.667, TPR=0.500, FDR=0.000, SHD=5
+2. PCTMI: F1=0.625, TPR=0.500, FDR=0.167, SHD=6
+3. CD-NOD: F1=0.500, TPR=0.500, FDR=0.500, SHD=10
+4. CDANs: F1=0.370, TPR=0.500, FDR=0.706, SHD=17
+5. PCMCI: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+6. PCMCI+: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+7. LPCMCI: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+8. DYNOTEARS: F1=0.000, TPR=0.000, FDR=0.000, SHD=10
+9. NAVAR: F1=0.000, TPR=0.000, FDR=1.000, SHD=34
+10. ACD: F1=0.000, TPR=0.000, FDR=1.000, SHD=26
+11. oCSE: F1=0.000, TPR=0.000, FDR=1.000, SHD=13
+============================================================
+
+[2025-11-09 21:37:31] Results saved to results_fmri.json
+[2025-11-10 16:04:45] 
+================================================================================
+[2025-11-10 16:04:45] Starting experiments on fmri dataset
+[2025-11-10 16:04:45] Data shape: (200, 5), Max lag: 1
+[2025-11-10 16:04:45] ================================================================================
+
+[2025-11-10 16:04:45] 
+Running PCMCI...
+[2025-11-10 16:04:45] PCMCI completed in 0.05 seconds
+[2025-11-10 16:04:45] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 16:04:45] 
+Running PCMCI+...
+[2025-11-10 16:04:45] PCMCI+ completed in 0.11 seconds
+[2025-11-10 16:04:45] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 16:04:45] 
+Running LPCMCI...
+[2025-11-10 16:04:45] LPCMCI completed in 0.60 seconds
+[2025-11-10 16:04:45] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 16:04:45] 
+Running tsFCI...
+[2025-11-10 16:21:47] 
+================================================================================
+[2025-11-10 16:21:47] Starting experiments on fmri dataset
+[2025-11-10 16:21:47] Data shape: (200, 5), Max lag: 1
+[2025-11-10 16:21:47] ================================================================================
+
+[2025-11-10 16:21:47] 
+Running PCMCI...
+[2025-11-10 16:21:47] PCMCI completed in 0.05 seconds
+[2025-11-10 16:21:47] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 16:21:47] 
+Running PCMCI+...
+[2025-11-10 16:21:47] PCMCI+ completed in 0.12 seconds
+[2025-11-10 16:21:47] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 16:21:47] 
+Running LPCMCI...
+[2025-11-10 16:21:47] LPCMCI completed in 0.63 seconds
+[2025-11-10 16:21:47] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 16:21:47] 
+Running tsFCI...
+[2025-11-10 19:05:05] 
+================================================================================
+[2025-11-10 19:05:05] Starting experiments on fmri dataset
+[2025-11-10 19:05:05] Data shape: (200, 5), Max lag: 1
+[2025-11-10 19:05:05] ================================================================================
+
+[2025-11-10 19:05:05] 
+Running PCMCI...
+[2025-11-10 19:05:05] PCMCI completed in 0.05 seconds
+[2025-11-10 19:05:05] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:05:05] 
+Running PCMCI+...
+[2025-11-10 19:05:05] PCMCI+ completed in 0.12 seconds
+[2025-11-10 19:05:05] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:05:05] 
+Running LPCMCI...
+[2025-11-10 19:05:05] LPCMCI completed in 0.62 seconds
+[2025-11-10 19:05:05] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:05:05] 
+Running tsFCI...
+[2025-11-10 19:18:09] 
+================================================================================
+[2025-11-10 19:18:09] Starting experiments on fmri dataset
+[2025-11-10 19:18:09] Data shape: (200, 5), Max lag: 1
+[2025-11-10 19:18:09] ================================================================================
+
+[2025-11-10 19:18:09] 
+Running PCMCI...
+[2025-11-10 19:18:09] PCMCI completed in 0.06 seconds
+[2025-11-10 19:18:09] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:18:09] 
+Running PCMCI+...
+[2025-11-10 19:18:09] PCMCI+ completed in 0.12 seconds
+[2025-11-10 19:18:09] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:18:09] 
+Running LPCMCI...
+[2025-11-10 19:18:10] LPCMCI completed in 0.64 seconds
+[2025-11-10 19:18:10] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:18:10] 
+Running tsFCI...
+[2025-11-10 19:23:22] 
+================================================================================
+[2025-11-10 19:23:22] Starting experiments on fmri dataset
+[2025-11-10 19:23:22] Data shape: (200, 5), Max lag: 1
+[2025-11-10 19:23:22] ================================================================================
+
+[2025-11-10 19:23:22] 
+Running PCMCI...
+[2025-11-10 19:23:22] PCMCI completed in 0.05 seconds
+[2025-11-10 19:23:22] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:23:22] 
+Running PCMCI+...
+[2025-11-10 19:23:22] PCMCI+ completed in 0.12 seconds
+[2025-11-10 19:23:22] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:23:22] 
+Running LPCMCI...
+[2025-11-10 19:23:23] LPCMCI completed in 0.62 seconds
+[2025-11-10 19:23:23] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:23:23] 
+Running tsFCI...
+[2025-11-10 19:32:17] 
+================================================================================
+[2025-11-10 19:32:17] Starting experiments on fmri dataset
+[2025-11-10 19:32:17] Data shape: (200, 5), Max lag: 1
+[2025-11-10 19:32:17] ================================================================================
+
+[2025-11-10 19:32:17] 
+Running PCMCI...
+[2025-11-10 19:32:17] PCMCI completed in 0.06 seconds
+[2025-11-10 19:32:17] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:32:17] 
+Running PCMCI+...
+[2025-11-10 19:32:17] PCMCI+ completed in 0.12 seconds
+[2025-11-10 19:32:17] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:32:17] 
+Running LPCMCI...
+[2025-11-10 19:32:18] LPCMCI completed in 0.62 seconds
+[2025-11-10 19:32:18] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:32:18] 
+Running tsFCI...
+[2025-11-10 19:56:55] 
+================================================================================
+[2025-11-10 19:56:55] Starting experiments on fmri dataset
+[2025-11-10 19:56:55] Data shape: (200, 5), Max lag: 1
+[2025-11-10 19:56:55] ================================================================================
+
+[2025-11-10 19:56:55] 
+Running PCMCI...
+[2025-11-10 19:56:55] PCMCI completed in 0.05 seconds
+[2025-11-10 19:56:55] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:56:55] 
+Running PCMCI+...
+[2025-11-10 19:56:55] PCMCI+ completed in 0.12 seconds
+[2025-11-10 19:56:55] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:56:55] 
+Running LPCMCI...
+[2025-11-10 19:56:56] LPCMCI completed in 0.62 seconds
+[2025-11-10 19:56:56] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 19:56:56] 
+Running tsFCI...
+[2025-11-10 20:01:33] 
+================================================================================
+[2025-11-10 20:01:33] Starting experiments on fmri dataset
+[2025-11-10 20:01:33] Data shape: (200, 5), Max lag: 1
+[2025-11-10 20:01:33] ================================================================================
+
+[2025-11-10 20:01:33] 
+Running PCMCI...
+[2025-11-10 20:01:33] PCMCI completed in 0.06 seconds
+[2025-11-10 20:01:33] 
+============================================================
+Algorithm: PCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:33] 
+Running PCMCI+...
+[2025-11-10 20:01:34] PCMCI+ completed in 0.12 seconds
+[2025-11-10 20:01:34] 
+============================================================
+Algorithm: PCMCI+
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:34] 
+Running LPCMCI...
+[2025-11-10 20:01:34] LPCMCI completed in 0.61 seconds
+[2025-11-10 20:01:34] 
+============================================================
+Algorithm: LPCMCI
+TPR: 1.000 | FDR: 0.800 | SHD: 40
+Precision: 0.200 | Recall: 1.000 | F1: 0.333
+True Positives: 10 | False Positives: 40
+False Negatives: 0 | True Negatives: -25
+Predicted Edges: 50 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:34] 
+Running CD-NOD...
+[2025-11-10 20:01:34] CD-NOD completed in 0.01 seconds
+[2025-11-10 20:01:34] 
+============================================================
+Algorithm: CD-NOD
+TPR: 0.500 | FDR: 0.500 | SHD: 10
+Precision: 0.500 | Recall: 0.500 | F1: 0.500
+True Positives: 5 | False Positives: 5
+False Negatives: 5 | True Negatives: 10
+Predicted Edges: 10 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:34] 
+Running CDANs...
+[2025-11-10 20:01:34] CDANs completed in 0.10 seconds
+[2025-11-10 20:01:34] 
+============================================================
+Algorithm: CDANs
+TPR: 0.500 | FDR: 0.706 | SHD: 17
+Precision: 0.294 | Recall: 0.500 | F1: 0.370
+True Positives: 5 | False Positives: 12
+False Negatives: 5 | True Negatives: 3
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:34] 
+Running VarLiNGAM...
+[2025-11-10 20:01:34] VarLiNGAM completed in 0.07 seconds
+[2025-11-10 20:01:34] 
+============================================================
+Algorithm: VarLiNGAM
+TPR: 0.000 | FDR: 1.000 | SHD: 22
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 12
+False Negatives: 10 | True Negatives: 3
+Predicted Edges: 12 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:34] 
+Running TiMINo...
+[2025-11-10 20:01:37] TiMINo completed in 2.98 seconds
+[2025-11-10 20:01:37] 
+============================================================
+Algorithm: TiMINo
+TPR: 0.300 | FDR: 0.842 | SHD: 23
+Precision: 0.158 | Recall: 0.300 | F1: 0.207
+True Positives: 3 | False Positives: 16
+False Negatives: 7 | True Negatives: -1
+Predicted Edges: 19 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:37] 
+Running DYNOTEARS...
+[2025-11-10 20:01:37] DYNOTEARS completed in 0.02 seconds
+[2025-11-10 20:01:37] 
+============================================================
+Algorithm: DYNOTEARS
+TPR: 0.000 | FDR: 0.000 | SHD: 10
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 0
+False Negatives: 10 | True Negatives: 15
+Predicted Edges: 0 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:37] 
+Running NTS-NOTEARS...
+[2025-11-10 20:01:37] NTS-NOTEARS completed in 0.01 seconds
+[2025-11-10 20:01:37] 
+============================================================
+Algorithm: NTS-NOTEARS
+TPR: 0.000 | FDR: 0.000 | SHD: 10
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 0
+False Negatives: 10 | True Negatives: 15
+Predicted Edges: 0 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:37] 
+Running GVAR...
+[2025-11-10 20:01:37] GVAR completed in 0.05 seconds
+[2025-11-10 20:01:37] 
+============================================================
+Algorithm: GVAR
+TPR: 0.000 | FDR: 1.000 | SHD: 16
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 6
+False Negatives: 10 | True Negatives: 9
+Predicted Edges: 6 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:37] 
+Running NAVAR...
+[2025-11-10 20:01:37] NAVAR completed in 0.11 seconds
+[2025-11-10 20:01:37] 
+============================================================
+Algorithm: NAVAR
+TPR: 0.000 | FDR: 1.000 | SHD: 33
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 23
+False Negatives: 10 | True Negatives: -8
+Predicted Edges: 23 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:37] 
+Running ACD...
+[2025-11-10 20:01:38] ACD completed in 0.15 seconds
+[2025-11-10 20:01:38] 
+============================================================
+Algorithm: ACD
+TPR: 0.000 | FDR: 1.000 | SHD: 25
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 15
+False Negatives: 10 | True Negatives: 0
+Predicted Edges: 15 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:38] 
+Running oCSE...
+[2025-11-10 20:01:38] oCSE completed in 0.04 seconds
+[2025-11-10 20:01:38] 
+============================================================
+Algorithm: oCSE
+TPR: 0.000 | FDR: 1.000 | SHD: 13
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 3
+False Negatives: 10 | True Negatives: 12
+Predicted Edges: 3 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:38] 
+Running TCDF...
+[2025-11-10 20:01:38] TCDF completed in 0.30 seconds
+[2025-11-10 20:01:38] 
+============================================================
+Algorithm: TCDF
+TPR: 0.000 | FDR: 1.000 | SHD: 15
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 5
+False Negatives: 10 | True Negatives: 10
+Predicted Edges: 5 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:38] 
+Running NBCB...
+[2025-11-10 20:01:39] NBCB completed in 1.52 seconds
+[2025-11-10 20:01:39] 
+============================================================
+Algorithm: NBCB
+TPR: 0.500 | FDR: 0.706 | SHD: 17
+Precision: 0.294 | Recall: 0.500 | F1: 0.370
+True Positives: 5 | False Positives: 12
+False Negatives: 5 | True Negatives: 3
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:39] 
+Running PCTMI...
+[2025-11-10 20:01:40] PCTMI completed in 0.07 seconds
+[2025-11-10 20:01:40] 
+============================================================
+Algorithm: PCTMI
+TPR: 0.500 | FDR: 0.167 | SHD: 6
+Precision: 0.833 | Recall: 0.500 | F1: 0.625
+True Positives: 5 | False Positives: 1
+False Negatives: 5 | True Negatives: 14
+Predicted Edges: 6 | True Edges: 10
+============================================================
+
+[2025-11-10 20:01:40] 
+============================================================
+ALGORITHM COMPARISON
+============================================================
+Best by F1 Score: PCTMI
+Best by TPR: PCMCI
+Best by FDR (lowest): DYNOTEARS
+Best by SHD (lowest): PCTMI
+
+Ranked by F1 Score:
+1. PCTMI: F1=0.625, TPR=0.500, FDR=0.167, SHD=6
+2. CD-NOD: F1=0.500, TPR=0.500, FDR=0.500, SHD=10
+3. CDANs: F1=0.370, TPR=0.500, FDR=0.706, SHD=17
+4. NBCB: F1=0.370, TPR=0.500, FDR=0.706, SHD=17
+5. PCMCI: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+6. PCMCI+: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+7. LPCMCI: F1=0.333, TPR=1.000, FDR=0.800, SHD=40
+8. TiMINo: F1=0.207, TPR=0.300, FDR=0.842, SHD=23
+9. VarLiNGAM: F1=0.000, TPR=0.000, FDR=1.000, SHD=22
+10. DYNOTEARS: F1=0.000, TPR=0.000, FDR=0.000, SHD=10
+11. NTS-NOTEARS: F1=0.000, TPR=0.000, FDR=0.000, SHD=10
+12. GVAR: F1=0.000, TPR=0.000, FDR=1.000, SHD=16
+13. NAVAR: F1=0.000, TPR=0.000, FDR=1.000, SHD=33
+14. ACD: F1=0.000, TPR=0.000, FDR=1.000, SHD=25
+15. oCSE: F1=0.000, TPR=0.000, FDR=1.000, SHD=13
+16. TCDF: F1=0.000, TPR=0.000, FDR=1.000, SHD=15
+============================================================
+
+[2025-11-10 20:01:40] Results saved to results_fmri.json
+[2025-11-10 22:12:59] 
+================================================================================
+[2025-11-10 22:12:59] Starting experiments on fmri dataset
+[2025-11-10 22:12:59] Data shape: (200, 5), Max lag: 1
+[2025-11-10 22:12:59] ================================================================================
+
+[2025-11-10 22:12:59] 
+Running PCMCI...
+[2025-11-10 22:13:00] PCMCI completed in 0.07 seconds
+[2025-11-10 22:13:00] 
+============================================================
+Algorithm: PCMCI
+TPR: 0.600 | FDR: 0.647 | SHD: 15
+Precision: 0.353 | Recall: 0.600 | F1: 0.444
+True Positives: 6 | False Positives: 11
+False Negatives: 4 | True Negatives: 29
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-10 22:13:00] 
+============================================================
+ALGORITHM COMPARISON
+============================================================
+Best by F1 Score: PCMCI
+Best by TPR: PCMCI
+Best by FDR (lowest): PCMCI
+Best by SHD (lowest): PCMCI
+
+Ranked by F1 Score:
+1. PCMCI: F1=0.444, TPR=0.600, FDR=0.647, SHD=15
+============================================================
+
+[2025-11-10 22:13:00] Results saved to results_fmri.json
+[2025-11-10 22:38:43] 
+================================================================================
+[2025-11-10 22:38:43] Starting experiments on fmri dataset
+[2025-11-10 22:38:43] Data shape: (200, 5), Max lag: 1
+[2025-11-10 22:38:43] ================================================================================
+
+[2025-11-10 22:38:43] 
+Running PCMCI...
+[2025-11-10 22:38:43] PCMCI completed in 0.06 seconds
+[2025-11-10 22:38:43] 
+============================================================
+Algorithm: PCMCI
+TPR: 0.600 | FDR: 0.647 | SHD: 15
+Precision: 0.353 | Recall: 0.600 | F1: 0.444
+True Positives: 6 | False Positives: 11
+False Negatives: 4 | True Negatives: 29
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-10 22:38:43] 
+Running PCMCI+...
+[2025-11-10 22:38:43] PCMCI+ completed in 0.12 seconds
+[2025-11-10 22:38:43] 
+============================================================
+Algorithm: PCMCI+
+TPR: 0.500 | FDR: 0.667 | SHD: 15
+Precision: 0.333 | Recall: 0.500 | F1: 0.400
+True Positives: 5 | False Positives: 10
+False Negatives: 5 | True Negatives: 30
+Predicted Edges: 15 | True Edges: 10
+============================================================
+
+[2025-11-10 22:38:43] 
+Running LPCMCI...
+[2025-11-10 22:38:44] LPCMCI completed in 0.63 seconds
+[2025-11-10 22:38:44] 
+============================================================
+Algorithm: LPCMCI
+TPR: 0.500 | FDR: 0.706 | SHD: 17
+Precision: 0.294 | Recall: 0.500 | F1: 0.370
+True Positives: 5 | False Positives: 12
+False Negatives: 5 | True Negatives: 28
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-10 22:38:44] 
+Running CD-NOD...
+[2025-11-10 22:38:44] CD-NOD completed in 0.01 seconds
+[2025-11-10 22:38:44] 
+============================================================
+Algorithm: CD-NOD
+TPR: 0.000 | FDR: 1.000 | SHD: 20
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 10
+False Negatives: 10 | True Negatives: 30
+Predicted Edges: 10 | True Edges: 10
+============================================================
+
+[2025-11-10 22:38:44] 
+Running CDANs...
+[2025-11-10 22:38:44] CDANs completed in 0.10 seconds
+[2025-11-10 22:38:44] 
+============================================================
+Algorithm: CDANs
+TPR: 0.600 | FDR: 0.647 | SHD: 15
+Precision: 0.353 | Recall: 0.600 | F1: 0.444
+True Positives: 6 | False Positives: 11
+False Negatives: 4 | True Negatives: 29
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-10 22:38:44] 
+Running VarLiNGAM...
+[2025-11-10 22:38:44] VarLiNGAM completed in 0.05 seconds
+[2025-11-10 22:38:44] 
+============================================================
+Algorithm: VarLiNGAM
+TPR: 0.200 | FDR: 0.833 | SHD: 18
+Precision: 0.167 | Recall: 0.200 | F1: 0.182
+True Positives: 2 | False Positives: 10
+False Negatives: 8 | True Negatives: 30
+Predicted Edges: 12 | True Edges: 10
+============================================================
+
+[2025-11-10 22:38:44] 
+Running TiMINo...
+[2025-11-10 22:39:32] TiMINo completed in 48.30 seconds
+[2025-11-10 22:39:32] 
+============================================================
+Algorithm: TiMINo
+TPR: 0.500 | FDR: 0.722 | SHD: 18
+Precision: 0.278 | Recall: 0.500 | F1: 0.357
+True Positives: 5 | False Positives: 13
+False Negatives: 5 | True Negatives: 27
+Predicted Edges: 18 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:32] 
+Running DYNOTEARS...
+[2025-11-10 22:39:32] DYNOTEARS completed in 0.02 seconds
+[2025-11-10 22:39:32] 
+============================================================
+Algorithm: DYNOTEARS
+TPR: 0.000 | FDR: 0.000 | SHD: 10
+Precision: 0.000 | Recall: 0.000 | F1: 0.000
+True Positives: 0 | False Positives: 0
+False Negatives: 10 | True Negatives: 40
+Predicted Edges: 0 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:32] 
+Running NTS-NOTEARS...
+[2025-11-10 22:39:32] NTS-NOTEARS completed in 0.01 seconds
+[2025-11-10 22:39:32] 
+============================================================
+Algorithm: NTS-NOTEARS
+TPR: 0.500 | FDR: 0.000 | SHD: 5
+Precision: 1.000 | Recall: 0.500 | F1: 0.667
+True Positives: 5 | False Positives: 0
+False Negatives: 5 | True Negatives: 40
+Predicted Edges: 5 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:32] 
+Running GVAR...
+[2025-11-10 22:39:33] GVAR completed in 0.05 seconds
+[2025-11-10 22:39:33] 
+============================================================
+Algorithm: GVAR
+TPR: 0.300 | FDR: 0.500 | SHD: 10
+Precision: 0.500 | Recall: 0.300 | F1: 0.375
+True Positives: 3 | False Positives: 3
+False Negatives: 7 | True Negatives: 37
+Predicted Edges: 6 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:33] 
+Running NAVAR...
+[2025-11-10 22:39:33] NAVAR completed in 0.12 seconds
+[2025-11-10 22:39:33] 
+============================================================
+Algorithm: NAVAR
+TPR: 0.800 | FDR: 0.619 | SHD: 15
+Precision: 0.381 | Recall: 0.800 | F1: 0.516
+True Positives: 8 | False Positives: 13
+False Negatives: 2 | True Negatives: 27
+Predicted Edges: 21 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:33] 
+Running ACD...
+[2025-11-10 22:39:33] ACD completed in 0.15 seconds
+[2025-11-10 22:39:33] 
+============================================================
+Algorithm: ACD
+TPR: 0.500 | FDR: 0.737 | SHD: 19
+Precision: 0.263 | Recall: 0.500 | F1: 0.345
+True Positives: 5 | False Positives: 14
+False Negatives: 5 | True Negatives: 26
+Predicted Edges: 19 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:33] 
+Running oCSE...
+[2025-11-10 22:39:33] oCSE completed in 0.04 seconds
+[2025-11-10 22:39:33] 
+============================================================
+Algorithm: oCSE
+TPR: 0.300 | FDR: 0.000 | SHD: 7
+Precision: 1.000 | Recall: 0.300 | F1: 0.462
+True Positives: 3 | False Positives: 0
+False Negatives: 7 | True Negatives: 40
+Predicted Edges: 3 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:33] 
+Running TCDF...
+[2025-11-10 22:39:33] TCDF completed in 0.29 seconds
+[2025-11-10 22:39:33] 
+============================================================
+Algorithm: TCDF
+TPR: 0.300 | FDR: 0.400 | SHD: 9
+Precision: 0.600 | Recall: 0.300 | F1: 0.400
+True Positives: 3 | False Positives: 2
+False Negatives: 7 | True Negatives: 38
+Predicted Edges: 5 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:33] 
+Running NBCB...
+[2025-11-10 22:39:35] NBCB completed in 1.49 seconds
+[2025-11-10 22:39:35] 
+============================================================
+Algorithm: NBCB
+TPR: 0.600 | FDR: 0.647 | SHD: 15
+Precision: 0.353 | Recall: 0.600 | F1: 0.444
+True Positives: 6 | False Positives: 11
+False Negatives: 4 | True Negatives: 29
+Predicted Edges: 17 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:35] 
+Running PCTMI...
+[2025-11-10 22:39:35] PCTMI completed in 0.07 seconds
+[2025-11-10 22:39:35] 
+============================================================
+Algorithm: PCTMI
+TPR: 0.100 | FDR: 0.000 | SHD: 9
+Precision: 1.000 | Recall: 0.100 | F1: 0.182
+True Positives: 1 | False Positives: 0
+False Negatives: 9 | True Negatives: 40
+Predicted Edges: 1 | True Edges: 10
+============================================================
+
+[2025-11-10 22:39:35] 
+============================================================
+ALGORITHM COMPARISON
+============================================================
+Best by F1 Score: NTS-NOTEARS
+Best by TPR: NAVAR
+Best by FDR (lowest): NTS-NOTEARS
+Best by SHD (lowest): NTS-NOTEARS
+
+Ranked by F1 Score:
+1. NTS-NOTEARS: F1=0.667, TPR=0.500, FDR=0.000, SHD=5
+2. NAVAR: F1=0.516, TPR=0.800, FDR=0.619, SHD=15
+3. oCSE: F1=0.462, TPR=0.300, FDR=0.000, SHD=7
+4. PCMCI: F1=0.444, TPR=0.600, FDR=0.647, SHD=15
+5. CDANs: F1=0.444, TPR=0.600, FDR=0.647, SHD=15
+6. NBCB: F1=0.444, TPR=0.600, FDR=0.647, SHD=15
+7. PCMCI+: F1=0.400, TPR=0.500, FDR=0.667, SHD=15
+8. TCDF: F1=0.400, TPR=0.300, FDR=0.400, SHD=9
+9. GVAR: F1=0.375, TPR=0.300, FDR=0.500, SHD=10
+10. LPCMCI: F1=0.370, TPR=0.500, FDR=0.706, SHD=17
+11. TiMINo: F1=0.357, TPR=0.500, FDR=0.722, SHD=18
+12. ACD: F1=0.345, TPR=0.500, FDR=0.737, SHD=19
+13. VarLiNGAM: F1=0.182, TPR=0.200, FDR=0.833, SHD=18
+14. PCTMI: F1=0.182, TPR=0.100, FDR=0.000, SHD=9
+15. CD-NOD: F1=0.000, TPR=0.000, FDR=1.000, SHD=20
+16. DYNOTEARS: F1=0.000, TPR=0.000, FDR=0.000, SHD=10
+============================================================
+
+[2025-11-10 22:39:35] Results saved to results_fmri.json
